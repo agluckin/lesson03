@@ -1,0 +1,95 @@
+/*
+SCSS HEX 
+mountbatten-pink -- #917881ff
+phthalo-green -- #1d3424ff
+wintergreen-dream -- #688d7dff
+white -- #ffffffff
+black-bean -- #3b1102ff
+
+/* SCSS RGB 
+$mountbatten-pink: rgba(145, 120, 129, 1);
+$phthalo-green: rgba(29, 52, 36, 1);
+$wintergreen-dream: rgba(104, 141, 125, 1);
+$white: rgba(255, 255, 255, 1);
+$black-bean: rgba(59, 17, 2, 1);
+
+*/
+
+ /* Global Styles
+ ----------------------------------------*/
+
+ body[
+     color: #343434;
+ ]
+
+img{    
+    width: 300px;
+}
+
+a{
+    color: #3b1102ff;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+
+
+
+ /* Profiles
+ ----------------------------------------*/
+
+header{
+    background: #1d3424ff;
+    color: #ffffff;
+}
+
+  /* Projects
+ ----------------------------------------*/
+.projects{
+    background: #ffffff
+}
+
+.projects .btn{
+background: #3b1102ff;
+text-decoration: none;
+padding: 8px;
+border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba( 59, 17, 2, 50%);
+
+}
+}
+
+
+
+  /* Work Experience
+ ----------------------------------------*/
+.work-experience{
+    background: #688d7dff;
+}
+
+
+
+  /* Education
+ ----------------------------------------*/
+
+
+
+
+
+  /* Contact Info
+ ----------------------------------------*/ 
+footer{
+    background: #343434;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
